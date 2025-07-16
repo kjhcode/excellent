@@ -34,8 +34,29 @@ st.markdown("""
 """)
 
 st.header("💡 2학년 친구를 위한 준비 팁!")
-st.info('''
+st.info("""
 지금 2학년이라면, 시험 준비보다는 재능을 발견하고 키워주는 데 집중해야 해요!
 
 *   **다양한 경험:** 코딩, 과학 실험, 독서, 미술 등 여러 활동을 해보면서 어떤 분야에 흥미가 있는지 찾아봐요!
-*   **호기심 키우기:** "왜?"라는 질문을 많이 하고, 스스로 답을 
+*   **호기심 키우기:** "왜?"라는 질문을 많이 하고, 스스로 답을 찾아보려고 노력하는 습관을 길러주세요.
+*   **책과 친해지기:** 다양한 책을 읽으면서 상상력과 지식을 넓히는 건 정말 중요해요!
+*   **관찰하고 탐구하기:** 주변의 모든 것을 그냥 지나치지 않고, 자세히 보고 궁금해하는 마음을 키워주세요.
+""")
+
+st.subheader("📚 추천 활동")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("https://images.unsplash.com/photo-1516321497487-e288ad7ab135?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="코딩 배우기")
+    st.write("논리적 사고력을 키우는 데 최고! ✨")
+
+with col2:
+    st.image("https://images.unsplash.com/photo-1532187635607-68b32729e84b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="과학 실험하기")
+    st.write("세상의 원리를 탐구하는 즐거움! 🧪")
+
+with col3:
+    st.image("https://images.unsplash.com/photo-1521587765099-ef1967727bb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", caption="다양한 책 읽기")
+    st.write("상상력과 지식을 넓히는 보물창고! 📖")
+
+st.markdown("---")
+st.write("궁금한 점이 있으면 언제든지 팬더에게 물어봐줘! 😊")
